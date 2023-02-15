@@ -1,0 +1,47 @@
+.home_img {
+    width: 95em;
+}
+
+.home_img1 {
+    width: 35em;
+    margin: 5em 3em 5em 10em;
+    border: 2px solid black;
+}
+
+.home_p1 {
+    margin: 10em 10em 5em 3em;
+}
+
+.home_p2 {
+    font-size: larger;
+}
+
+.flex {
+    display: flex;
+}
+
+.home_1 {
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+}
+
+.home_p3 {
+    margin: 3em 3em 3em 10em;
+
+}
+
+.home_p4 {
+    margin: 3em 10em 3em 7em;
+}
