@@ -38,10 +38,58 @@
 }
 
 .home_p3 {
-    margin: 3em 3em 3em 10em;
+    margin: 3em 10em 3em 10em;
 
 }
 
-.home_p4 {
-    margin: 3em 10em 3em 7em;
+.home_icon {
+    width: 5em;
+    border: 4px solid navy;
+    border-radius: 50%;
+    padding: 0em;
+    background-color: lightcyan;
+}
+
+.home_icon1 {
+    margin-left: 5em;
+}
+
+.home_icon2 {
+    margin-left: 4em;
+}
+
+.home_icon3 {
+    margin-left: 2.5em;
+}
+
+.home_icon4 {
+    margin-left: 4em;
+}
+
+.home_icons {
+    background-color: rgba(119, 136, 153, 0.727);
+    padding: 3em 0em 12em 0em;
+}
+
+.center {
+    /* border: 2px solid red; */
+    padding: 0em 1em 0em 1em;
+    color: lightcyan;
+}
+
+.home_title {
+    text-align: center;
+}
+
+.home_projects {
+    /* border: 6px solid red; */
+    justify-content: center;
+    background-color: black;
+}
+
+.home_project1 {
+    width: 15em;
+    height: 15em;
+    margin: .5em;
+    /* border: 2px solid blue; */
 }
