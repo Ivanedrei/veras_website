@@ -11,6 +11,8 @@
 
 .home_p1 {
     margin: 10em 10em 5em 3em;
+    background-color: whitesmoke;
+    padding: 2em;
 }
 
 .home_p2 {
@@ -24,7 +26,7 @@
 
 .home_1 {
     justify-content: space-evenly;
-    /* border: 2px solid red; */
+    /* background-color: whitesmoke; */
 }
 
 .row {
@@ -35,6 +37,8 @@
 
 .home_p3 {
     margin: 3em 10em 3em 10em;
+    background-color: whitesmoke;
+    padding: 8em;
 
 }
 
