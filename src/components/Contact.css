@@ -1,7 +1,7 @@
 .cont_flex {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .cont {
@@ -11,9 +11,16 @@
 
 .cont_img {
     width: 30%;
+    margin-top: 3em;
 }
 
 .cont_center {
     display: flex;
     justify-content: center;
+    border-bottom: 2px dotted black;
+
+}
+
+.cont3 {
+    padding-left: 2em;
 }

@@ -39,7 +39,7 @@ export const Home = () => {
                     that the execution meets your expectations — every time.</p>
                 {/* <h2>request a quote today</h2> */}
                 {/* <p>LET OUR TEAM WORK TO CREATE YOUR DREAM KITCHEN/ ROOM FROM A BROAD RANGE OF FINISHES AND STYLES</p> */}
-                <button>request quote</button>
+                <button className="btn">Request Quote</button>
             </div>
         </div>
         {/* DO_ICONS */}

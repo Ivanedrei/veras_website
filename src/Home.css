@@ -10,13 +10,20 @@
 }
 
 .home_p1 {
-    margin: 10em 10em 5em 3em;
+    margin: 5em 10em 5em 3em;
     background-color: whitesmoke;
-    padding: 2em;
+    padding: 4em;
 }
 
 .home_p2 {
     font-size: larger;
+}
+
+.btn {
+    width: 15em;
+    height: 3em;
+    background-color: rgb(171, 170, 170);
+    color: white;
 }
 
 .flex {
@@ -26,7 +33,7 @@
 
 .home_1 {
     justify-content: space-evenly;
-    /* background-color: whitesmoke; */
+    margin-bottom: 3em;
 }
 
 .row {
@@ -36,11 +43,15 @@
 }
 
 .home_p3 {
-    margin: 3em 10em 3em 10em;
+    margin: 8em 10em 3em 10em;
     background-color: whitesmoke;
     padding: 8em;
 
 }
+
+/* .home_p4 {
+    border: 2px solid red;
+} */
 
 .home_icon {
     width: 4em;

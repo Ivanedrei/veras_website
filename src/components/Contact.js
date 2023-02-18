@@ -10,8 +10,8 @@ export const Contact = () => {
         <div className="cont_flex">
             <div className="cont cont1">
                 <h1>Reach Us</h1>
-                <h4> Phone Number: (931)575-7351 - Ivan Vera</h4>
-                <h4> Hablamos Español: (931)639-3445 - Samuel Vera</h4>
+                <h4> Phone Number: (931)575-7351</h4>
+                <h4> Hablamos Español: (931)639-3445</h4>
                 <h4> Email: verascustomcabinets@gmail.com</h4>
             </div>
             <div className="cont cont2">
@@ -29,7 +29,7 @@ export const Contact = () => {
             <div className="cont cont3">
                 <h1>Location</h1>
                 <p>Our manufacturing shop is located in Normandy, TN <br></br>Although we serve all Tennessee and all states around.
-                    <br></br>Simply give us a call at (931)575-7351 to schedule an appointment.</p>
+                    <br></br>Simply give us a call at (931)575-7351 to schedule <br></br> an appointment.</p>
             </div>
         </div>
     </>
