@@ -1,0 +1,54 @@
+.about_title {
+    text-align: center;
+    /* border: 2px solid black; */
+    color: black;
+    padding: 2em;
+}
+
+.about_img {
+    width: 45em;
+    height: 35em;
+}
+
+.flexing {
+    display: flex;
+    justify-content: center;
+}
+
+.a_history {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 3em;
+}
+
+.a_p1 {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5em;
+    background-color: whitesmoke;
+    margin: 3em;
+}
+
+.about_container {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    justify-content: center;
+    background-color: lightgray;
+    margin: 3em;
+}
+
+.about_services {
+    /* border: 2px solid blue; */
+    margin: 3em;
+
+}
+
+.a_service {
+    margin-bottom: 2em;
+}
+
+.about_manage {
+    text-align: center;
+    /* color: aqua; */
+}
