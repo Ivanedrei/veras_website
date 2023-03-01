@@ -8,10 +8,10 @@ export const About = () => {
                 className="about_img" />
         </div>
         <div className="about_title">
-            <h1 className="a_title">About Us</h1>
+            <h1 className="a_title">_About _Us</h1>
         </div>
         <div className="about_history">
-            <h2 className="a_history">Our History</h2>
+            <h1 className="a_history">Our History</h1>
             <p className="a_p1">Thank You for looking to Vera's Custom Cabinets for your cabinetry and custom furniture needs.
                 We are committed to providing you with the highest quality products and exceptional customer service.
                 From your idea to the dream coming true, we are here to make your kitchen a gorgeous reality.
