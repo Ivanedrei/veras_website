@@ -1,7 +1,6 @@
-import React, { Component } from "react";
-import { Form, Link } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css"
-import { Slider } from "./Slider";
 
 export const Home = () => {
     return <>
@@ -24,10 +23,10 @@ export const Home = () => {
             </div>
         </div>
         {/* REQUEST_QUOTE */}
-        <div className="flex home_1">
+        <div className="flex">
             <div>
                 <img src="https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/190766654_10227370598990915_3192821753868813326_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=666b5a&_nc_ohc=vWrtVoufH3gAX9KRwDI&tn=4BdIeUrp3D-Bnfqz&_nc_ht=scontent-atl3-2.xx&oh=00_AfCmSK0ryj7_8sdKotJbABojwJCJyfpu0-96LcO-EHDQAg&oe=64133A39"
-                    className="home_img1" alt="style1" />
+                    className="home_img1 img_center" alt="style1" />
             </div>
             <div className="home_p1">
                 <h6>WE'LL HELP YOU FIND YOUR STYLE</h6>
@@ -44,7 +43,7 @@ export const Home = () => {
         </div>
         {/* DO_ICONS */}
         <div className="relative">
-            <div className="flex home_1 home_icons">
+            <div className="flex home_icons">
                 <div className="center">
                     <img src="https://cdn3.iconfinder.com/data/icons/business-intelligence-2/64/data-architecture-model-system-design-organization-business-512.png"
                         alt="Architect" className="home_icon home_icon1" />

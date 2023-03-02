@@ -1,18 +1,26 @@
 .home_img {
-    width: 95em;
+    max-width: 100%;
+    height: auto;
 }
 
 .home_img1 {
-    width: 35em;
-    margin: 5em 3em 5em 10em;
+    max-width: 70%;
+    height: auto;
     border: 2px solid black;
     border-radius: 5%;
 }
 
+.img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
 .home_p1 {
-    margin: 5em 10em 5em 3em;
+    margin: 3em;
     background-color: whitesmoke;
-    padding: 4em;
+    padding: 3em;
 }
 
 .home_p2 {
@@ -28,12 +36,13 @@
 
 .flex {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .home_1 {
     justify-content: space-evenly;
     margin-bottom: 3em;
+    border: 2px solid red;
 }
 
 .row {
@@ -43,9 +52,9 @@
 }
 
 .home_p3 {
-    margin: 8em 10em 3em 10em;
+    margin: 3em;
     background-color: whitesmoke;
-    padding: 8em;
+    padding: 2em;
 
 }
 

@@ -21,31 +21,34 @@ export const About = () => {
                 durable and expertly constructed kitchen cabinetry that you can love and appreciate for a lifetime.</p>
         </div>
         <div className="about_container">
-            <div className="about_services">
-                <h2 className="a_service" >Services:</h2>
-                <ul className="a_ser">
-                    <li>Interior design</li>
-                    <li>Kitchen Remodeling</li>
-                    <li>Bathroom Remodeling</li>
-                    <li>Walk-in closet Remodeling</li>
-                    <li>Home/Office Remodeling</li>
-                    <li>Game & Rec Room Remodeling</li>
-                    <li>Wine Room Remodeling</li>
-                    <li>Whole-house Remodeling</li>
-                    <li>Home/garage additions</li>
-                </ul>
+            <h3 className="a_service" >Services:</h3>
+            {/* <div className="about_services"> */}
+            <div className="a_ser">
+                <p className="about_services">Interior design</p>
+                <p className="about_services">Kitchen Remodel</p>
+                <p className="about_services">Bathroom Remodel</p>
+                <p className="about_services">Walk-in closet Remodel</p>
+                <p className="about_services">Home/Office Remodel</p>
+                <p className="about_services">Game/Rec Room Remodel</p>
+                <p className="about_services">Wine Room Remodel</p>
+                <p className="about_services">Whole-house Remodel</p>
+                <p className="about_services">Home/garage additions</p>
             </div>
-
+            {/* </div> */}
+        </div >
+        <div className="about_container">
             <div className="about_services">
-                <h2 className="a_service">Our design Process:</h2>
-                <h3 className="about">Step by Step:</h3>
-                <div className="about">
-                    <div>1. Let's discuss the project</div>
-                    <div>2. Initial design presentation</div>
-                    <div>3. Approval and procurement</div>
-                    <div>4. Contracting work schedule</div>
-                    <div>5. Delivery and installation</div>
-                    <div>6. Final walkthrough</div>
+                <h3 className="a_service">Our design Process:</h3>
+                <h4 className="about_step">STEP BY STEP:</h4>
+                <div>
+                    <ul className="about">
+                        <li>Let's discuss the project</li>
+                        <li>Initial design presentation</li>
+                        <li>Approval and procurement</li>
+                        <li>Contracting work schedule</li>
+                        <li>Delivery and installation</li>
+                        <li>Final walkthrough</li>
+                    </ul>
                 </div>
             </div>
         </div>
